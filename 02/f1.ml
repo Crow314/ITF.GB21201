@@ -10,5 +10,4 @@ let rec solve list1 max_val =
   | h::t -> solve t (max2 h max_val);;
 
 let f1 list1 = 
-  let max = 0 in
-  solve list1 max;
+  solve list1 0;
